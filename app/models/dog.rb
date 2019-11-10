@@ -1,4 +1,4 @@
-class Dog > ActiveRecord::Base 
+class Dog < ActiveRecord::Base 
   
   @@all - []
   def initialize(:name, :breed, :age)
